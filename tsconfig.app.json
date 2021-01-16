@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": [],
+  },
+  "exclude": [
+    "node_modules",
+    "server.js",
+    "backend",
+    "anilderiyjwellers-win32-x64"
+],
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.d.ts"
+  ],
+
+}
